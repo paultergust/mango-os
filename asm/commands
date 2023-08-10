@@ -1,0 +1,2 @@
+1. nasm -f elf32 loader.s 
+2. ld -T link.ld -melf_i386 loader.o -o kernel.elf
